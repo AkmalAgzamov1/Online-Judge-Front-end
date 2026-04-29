@@ -32,7 +32,7 @@ cd Online-Judge-Front-end
 npm install
 
 4. Start the development server
-npm rund dev
+npm run dev
 
 The project will usually run on
 http://localhost:5173
