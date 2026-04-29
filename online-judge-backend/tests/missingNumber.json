@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "type": "average",
+    "input": "5\n2 3 1 5\n",
+    "expected": "4"
+  },
+
+  {
+    "id": 2,
+    "type": "average",
+    "input": "4\n1 4 2\n",
+    "expected": "3"
+  },
+
+  {
+    "id": 3,
+    "type": "average",
+    "input": "7\n1 2 4 5 6 7\n",
+    "expected": "3"
+  },
+ 
+
+  {
+    "id": 4,
+    "type": "edge",
+    "input": "2\n1\n",
+    "expected": "2"
+  },
+
+  {
+    "id": 5,
+    "type": "edge",
+    "input": "2\n2\n",
+    "expected": "1"
+  },
+
+  {
+    "id": 6,
+    "type": "edge",
+    "input": "3\n2 3\n",
+    "expected": "1"
+  },
+ 
+
+  {
+    "id": 7,
+    "type": "mistake-prone",
+    "description": "Missing number is in the middle — many students incorrectly sort or mis-sum.",
+    "input": "6\n1 2 4 5 6\n",
+    "expected": "3"
+  },
+
+  {
+    "id": 8,
+    "type": "mistake-prone",
+    "description": "Numbers given in random messy order — tests parsing + logic.",
+    "input": "8\n8 3 1 2 6 5 7\n",
+    "expected": "4"
+  },
+
+  {
+    "id": 9,
+    "type": "mistake-prone",
+    "description": "User might assume sorted input — but it's not.",
+    "input": "10\n10 9 8 6 5 4 3 2 1\n",
+    "expected": "7"
+  },
+
+  {
+    "id": 10,
+    "type": "mistake-prone",
+    "description": "Missing number is n — common off-by-one mistake.",
+    "input": "9\n1 2 3 4 5 6 7 8\n",
+    "expected": "9"
+  }
+]

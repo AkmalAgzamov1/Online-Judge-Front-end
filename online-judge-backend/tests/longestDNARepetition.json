@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "input": "ATTCGGGA\n",
+    "expected": "3"
+  },
+  {
+    "id": 2,
+    "input": "A\n",
+    "expected": "1"
+  },
+  {
+    "id": 3,
+    "input": "AAAAAA\n",
+    "expected": "6"
+  },
+  {
+    "id": 4,
+    "input": "ACGTACGT\n",
+    "expected": "1"
+  },
+  {
+    "id": 5,
+    "input": "GGGGTTTTA\n",
+    "expected": "4"
+  },
+  {
+    "id": 6,
+    "input": "TGGGGG\n",
+    "expected": "5"
+  },
+  {
+    "id": 7,
+    "input": "ACCCCCCGT\n",
+    "expected": "6"
+  },
+  {
+    "id": 8,
+    "input": "TTATTTTTT\n",
+    "expected": "6"
+  },
+  {
+    "id": 9,
+    "input": "AGAGAGAGAGAG\n",
+    "expected": "1"
+  },
+  {
+    "id": 10,
+    "input": "CCCTTTGGGAAAAAAT\n",
+    "expected": "6"
+  }
+]

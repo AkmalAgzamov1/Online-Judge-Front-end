@@ -1,0 +1,14 @@
+/* 框架樣式：控制版面間距與對齊 */
+.oj-layout { @apply min-h-screen flex flex-col bg-gray-50; }
+.oj-header { @apply h-16 border-b flex items-center justify-between px-6 bg-white; }
+.oj-logo   { @apply text-xl font-extrabold text-slate-800; }
+.oj-nav a  { @apply text-slate-600 text-sm font-medium hover:text-blue-600 ml-6; }
+.oj-main   { @apply flex-1 max-w-6xl mx-auto px-6 py-8; }
+.oj-footer { @apply h-14 border-t bg-white flex items-center justify-center text-sm text-slate-500; }
+.oj-title  { @apply text-3xl font-bold mb-6 text-slate-800; }
+
+/* 共用卡片樣式 */
+.oj-card   { @apply bg-white rounded-2xl border border-slate-200 shadow-sm p-6; }
+
+/* 題庫 grid */
+.oj-grid   { @apply grid gap-6 sm:grid-cols-2 lg:grid-cols-3; }
