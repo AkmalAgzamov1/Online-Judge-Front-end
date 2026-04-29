@@ -26,7 +26,7 @@ It is built with React + Vite.
 https://github.com/AkmalAgzamov1/Online-Judge-Front-end
 
 2. Go to project folder
-cd online-judge-frontend
+cd Online-Judge-Front-end
 
 3. install dependencies
 npm install
