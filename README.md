@@ -21,7 +21,7 @@ It is built with React + Vite.
 - Axios / Fetch API
 
 ## Installation
-
+```bash
 1. Clone the repository:
 https://github.com/AkmalAgzamov1/Online-Judge-Front-end
 
@@ -36,4 +36,3 @@ npm rund dev
 
 The project will usually run on
 http://localhost:5173
-```bash
